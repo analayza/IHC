@@ -13,22 +13,21 @@ body{
 
 .div-left{
     left: 0;
-    background-color: white;
+    background-color: #FCE4EC;
     position: relative;
     display: flex;
     flex-direction: column; /* Organiza os itens em uma coluna */
     height: 100vh; 
+    color: #C2185B;
 }
 
 .div-rigth{
     right: 0;
-    background-color: #F08080;
+    background-color: #C2185B;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
 }
 
 .perfil img{
@@ -55,7 +54,7 @@ body{
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: white;
+    color: #FCE4EC;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -90,6 +89,11 @@ body{
     margin: 0;
     margin-left: 65px;
     font-size: 18px;
+    color: #FCE4EC;
+}
+
+h1{
+    color: #FCE4EC;
 }
 
 .text-content-habilidades{
@@ -98,12 +102,14 @@ body{
     margin: 0%;
     width: 100%;
     font-size: 20px;
+    color:  #FCE4EC;
 }
 
 .text-content-experiencias{
     list-style-type: none;
     font-size: 20px;
     padding: 60px;
+    color: #FCE4EC;
 }
 
 .text-li {
@@ -114,14 +120,16 @@ body{
     list-style-type: none;
     font-size: 20px;
     padding: 60px;
+    color:  #FCE4EC;
 }
 
-.info-pessoais img{
+.info-pessoais i{
     width: 20px;
     height: auto;
     margin-left: 10px;
-    padding: 5px;
+    padding-right: 1px;
 }
+
 
 .info-pessoais {
     display: flex;
@@ -130,7 +138,12 @@ body{
     position: relative;
     left: 30px;
     font-size: 13px;
+    color: #C2185B;
+}
 
+a{
+    text-decoration: none;
+    color: #C2185B;
 }
 
 .info-pessoais div {
@@ -138,6 +151,7 @@ body{
     align-items: center; /* Alinha a imagem e o texto verticalmente */
     margin-bottom: 10px; /* Espaço entre cada item de contato */
     position: relative;
+    
 }
 
 footer {
